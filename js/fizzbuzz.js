@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	$('.container').on('click', '#start', function(event)
+	$('.container').on('click', '#start', function()
 		for(var number = 1; number <= 100; number++) {
 			if (number%15 == 0) {
 			console.log ("FizzBuzz")
