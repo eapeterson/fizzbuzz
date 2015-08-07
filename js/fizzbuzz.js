@@ -1,14 +1,18 @@
-$(document).ready(function() {
-	$('.container').on('click', '#start', function()
-		for(var number = 1; number <= 100; number++) {
-			if (number%15 == 0) {
-			console.log ("FizzBuzz")
-			} else if (number%5 == 0) {
-			console.log ("Buzz")
-			} else if (number%3 == 0) {
-			console.log ("Fizz")
+$(document).ready(function() {}
+
+	$('.container').on('click', '#start', playFizzBuzz);
+		
+	function playFizzBuzz (event)
+		for (var i = 1; i <= 100; i++) {
+			console.log (i)}
+			if (i%15 == 0) {
+			console.log ("FizzBuzz");
+			} else if (i%5 == 0) {
+			console.log ("Buzz");
+			} else if (i%3 == 0) {
+			console.log ("Fizz");
 			} else {
-			console.log (number)
+			console.log (i);
 			}}
 	})
 	
